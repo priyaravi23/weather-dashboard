@@ -2,10 +2,11 @@
 
 ### Application Deployed To GitHub Pages 
 
+https://priyaravi23.github.io/weather-dashboard/
 
 ### Description 
 
-*Build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. Use the OpenWeather API (https://openweathermap.org/api) to retrieve weather data for cities. The documentation includes a section called "How to start" that provides basic setup and usage instructions. You will use localStorage to store any persistent data.*
+*Build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. Use the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data for cities. The documentation includes a section called "How to start" that provides basic setup and usage instructions. You will use localStorage to store any persistent data.*
 
 ### User Story 
 
@@ -30,3 +31,9 @@ THEN I am presented with a 5-day forecast that displays the date, an icon repres
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 ```
+
+### Mock-Up
+
+*The following image shows the web application's appearance and functionality:*
+
+![](assets/images/mock-up.png)

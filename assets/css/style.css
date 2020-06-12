@@ -151,7 +151,6 @@ ul {
 .card-deck {
     margin: 0 auto;
     float: none;
-    margin-bottom: 10px;
     align-content: center;
 }
 
@@ -176,6 +175,10 @@ ul {
     color: white;
     background-color: #007bff;
     border: none;
+}
+
+.card-deck .card {
+    margin-bottom: 15px;
 }
 
 /*--Media Queries */
