@@ -1,4 +1,13 @@
-/*--Overall Styling */
+:root {
+    --primary-color: white;
+    --secondary-color: grey;
+    --tertiary-color: #007bff;
+    --green-color: green;
+    --orange-color: orange;
+    --yellow-color: yellow;
+    --red-color: red;
+    --purple-color: purple;
+}
 
 * {
     box-sizing: border-box;
@@ -16,7 +25,7 @@ header {
     font-size: 40px;
     font-weight: bolder;
     background-color:  rgb(58, 58, 58);
-    color: white;
+    color: var(--primary-color);
     text-align: center;
     padding: 25px;
 }
@@ -51,11 +60,11 @@ h1 {
 }
 
 #basic-text1 {
-    background-color: #007bff;;
+    background-color: var(--tertiary-color);;
 }
 
 .fas {
-    color: white;
+    color: var(--primary-color);
 }
 
 /*--Daily Forecast */
@@ -69,17 +78,17 @@ h2 {
 
 p {
     padding-bottom: 250px;
-    color: grey;
+    color: var(--secondary-color);
 }
 
 a {
     font-size: 18px;
-    color: grey;
+    color: var(--secondary-color);
     line-height: 35px;
 }
 
 ul {
-    color: grey;
+    color: var(--secondary-color);
     font-size: 18px;
     line-height: 24px;
     padding-left: 20px;
@@ -88,8 +97,8 @@ ul {
 /* UV Index colors */
 
 .green {
-    background-color:green;
-    color: white;
+    background-color: var(--green-color);
+    color: var(--primary-color);
     margin-left: 20px;
     padding: 15px;
     margin-bottom: 30px;
@@ -97,15 +106,15 @@ ul {
 }
 
 .orange {
-    background-color: orange;
-    color: white;
+    background-color: var(--orange-color);
+    color: var(--primary-color);
     padding: 15px;
     margin-bottom: 30px;
     border: none;
 }
 
 .yellow {
-    background-color:yellow;
+    background-color: var(--yellow-color);
     color: black;
     margin-left: 20px;
     padding: 15px;
@@ -114,8 +123,8 @@ ul {
 }
 
 .red {
-    background-color: red;
-    color: white;
+    background-color: var(--red-color);
+    color: var(--primary-color);
     margin-left: 20px;
     padding: 15px;
     margin-bottom: 30px;
@@ -123,8 +132,8 @@ ul {
 }
 
 .purple {
-    background-color: purple;
-    color: white;
+    background-color: var(--purple-color);
+    color: var(--primary-color);
     margin-left: 20px;
     padding: 15px;
     margin-bottom: 30px;
@@ -161,7 +170,7 @@ ul {
 .card-header {
     font-size: 20px;
     font-weight: bolder;
-    color: white;
+    color: var(--primary-color);
     text-align: center;
     padding-bottom: 0px;
     border: none;
@@ -172,8 +181,8 @@ ul {
     padding-bottom: 30px;
     font-size: 16px;
     line-height: 30px;
-    color: white;
-    background-color: #007bff;
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
     border: none;
 }
 

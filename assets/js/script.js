@@ -80,7 +80,7 @@ $(document).ready(function() {
                 // Adding in UV Index to daily weather
                 $("#dailyWeather").append(
                     "<div class='col s12 m6'>"
-                    + "<button class='w3-button' id='uvIndex' class='daily'>" + "UV Index: " + response.current.uvi + "</button>"
+                    + "<ul class='daily'>" + "UV Index: " + "<button class='w3-button' id='uvIndex' class='daily'>" + response.current.uvi + "</button>" + "</ul>"
                     + "</div>"
                 ); // End of append
 
